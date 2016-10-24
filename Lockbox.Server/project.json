@@ -1,0 +1,41 @@
+﻿{
+  "name": "Lockbox.Server",
+  "authors": [ "Piotr Gankiewicz" ],
+  "title": "Lockbox.Server",
+  "description": "Hostable Lockbox API.",
+  "packOptions": {
+    "projectUrl": "https://github.com/Lockbox-stack/Lockbox.Server",
+    "licenseUrl": "https://github.com/Lockbox-stack/Lockbox.Server/blob/master/LICENSE"
+  },
+  "version": "1.0.0-*",
+  "buildOptions": {
+    "emitEntryPoint": true
+  },
+  "dependencies": {
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.0"
+    },
+    "NETStandard.Library": "1.6.0",
+    "Lockbox.Api": "1.0.0-alpha-1",
+    "Autofac": "4.1.0",
+    "Autofac.Extensions.DependencyInjection": "4.0.0",
+    "Microsoft.AspNetCore.Authentication.JwtBearer": "1.0.0",
+    "Microsoft.AspNetCore.Hosting": "1.0.0",
+    "Microsoft.AspNetCore.Server.Kestrel": "1.0.0",
+    "Microsoft.AspNetCore.Owin": "1.0.0",
+    "Microsoft.Extensions.Caching.Memory": "1.0.0",
+    "Microsoft.Extensions.Configuration.Binder": "1.0.0",
+    "Microsoft.Extensions.Configuration.Json": "1.0.0",
+    "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",
+    "NLog.Extensions.Logging": "1.0.0-*"
+  },
+  "frameworks": {
+    "netcoreapp1.0": {
+      "imports": [
+        "dotnet5.6",
+        "dnxcore50"
+      ]
+    }
+  }
+}
