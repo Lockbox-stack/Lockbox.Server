@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lockbox.Server", "Lockbox.Server\Lockbox.Server.xproj", "{16779E77-E5A6-4576-9E47-3D416C54EBEB}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Lockbox.Server", "Lockbox.Server.xproj", "{16779E77-E5A6-4576-9E47-3D416C54EBEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
