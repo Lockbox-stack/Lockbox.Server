@@ -2,7 +2,6 @@ version: "2"
 services:
   lockbox-server:
     image: 'lockbox/lockbox.server'
-    build: .
     links:
       - mongo
     ports:
