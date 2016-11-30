@@ -2,13 +2,12 @@
 
 ####**Dead simple, centralized and secured storage for your credentials.**
 
-# Lockbox.Server
-## Hostable Lockbox API.
+# Lockbox.Server is a hostable Lockbox API.
 
 **Quick start**
 ----------------
 
-Run docker container which requires external MongoDB instance (e.g. running on localhost):
+Run docker container which requires an external [MongoDB](https://www.mongodb.com) instance (e.g. running on localhost):
 ```
 docker pull lockbox/lockbox.server
 docker run -p 5000:5000 lockbox.server 
