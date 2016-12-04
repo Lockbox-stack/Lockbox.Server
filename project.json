@@ -7,7 +7,7 @@
     "projectUrl": "https://github.com/Lockbox-stack/Lockbox.Server",
     "licenseUrl": "https://github.com/Lockbox-stack/Lockbox.Server/blob/master/LICENSE"
   },
-  "version": "1.0.0-*",
+  "version": "1.0.0",
   "buildOptions": {
     "emitEntryPoint": true
   },

@@ -1,6 +1,7 @@
 ![Lockbox](http://spetz.github.io/img/lockbox_logo.png)
 
 ####**Dead simple, centralized and secured storage for your credentials.**
+####**[getlockbox.com](https://getlockbox.com)**
 
 # Lockbox.Server is a hostable Lockbox API.
 
