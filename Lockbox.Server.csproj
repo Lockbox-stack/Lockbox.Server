@@ -18,10 +18,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="../Lockbox/Lockbox.Api/Lockbox.Api.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
+    <PackageReference Include="Lockbox.Api" Version="1.*" />
     <PackageReference Include="Autofac" Version="4.1.0" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.1" />
