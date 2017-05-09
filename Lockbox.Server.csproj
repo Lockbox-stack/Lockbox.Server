@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>Hostable Lockbox API.</Description>
     <AssemblyTitle>Lockbox.Server</AssemblyTitle>
-    <VersionPrefix>1.0.2</VersionPrefix>
+    <VersionPrefix>1.0.3</VersionPrefix>
     <Authors>Piotr Gankiewicz</Authors>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <AssemblyName>Lockbox.Server</AssemblyName>
@@ -19,8 +19,8 @@
 
   <ItemGroup>
     <PackageReference Include="Lockbox.Api" Version="1.*" />
-    <PackageReference Include="Autofac" Version="4.1.0" />
-    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.0.0" />
+    <PackageReference Include="Autofac" Version="4.*" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.*" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="1.1.1" />
@@ -29,7 +29,6 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="1.1.1" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="1.1.1" />
     <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="1.1.1" />
-    <PackageReference Include="NLog.Extensions.Logging" Version="1.0.0-*" />
   </ItemGroup>
 
 </Project>
