@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <Description>Hostable Lockbox API.</Description>
+    <AssemblyTitle>Lockbox.Server</AssemblyTitle>
+    <VersionPrefix>2.0.0</VersionPrefix>
+    <Authors>Piotr Gankiewicz</Authors>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>Lockbox.Server</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <PackageId>Lockbox.Server</PackageId>
+    <PackageProjectUrl>https://github.com/Lockbox-stack/Lockbox.Server</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/Lockbox-stack/Lockbox.Server/blob/master/LICENSE</PackageLicenseUrl>
+    <RuntimeFrameworkVersion>2.0.0</RuntimeFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Lockbox.Api" Version="2.*" />
+    <PackageReference Include="Autofac" Version="4.*" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.*" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.CommandLine" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.Kestrel" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Owin" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Server.IISIntegration" Version="2.0.0" />
+  </ItemGroup>
+
+</Project>
