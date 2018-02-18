@@ -10,7 +10,7 @@ branches:
 before_script:
   - chmod -R a+x scripts
 script:
-  - ./scripts/travis-build.sh
+  - ./scripts/build.sh
 after_success:
   - ./scripts/after-success.sh
 notifications:
