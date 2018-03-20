@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Description>Hostable Lockbox API.</Description>
     <AssemblyTitle>Lockbox.Server</AssemblyTitle>
-    <VersionPrefix>2.0.2</VersionPrefix>
+    <VersionPrefix>2.0.3</VersionPrefix>
     <Authors>Piotr Gankiewicz</Authors>
     <TargetFramework>netcoreapp2.0</TargetFramework>
     <AssemblyName>Lockbox.Server</AssemblyName>
@@ -15,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lockbox.Api" Version="2.*" />
+    <PackageReference Include="Lockbox.Api" Version="2.0.3" />
     <PackageReference Include="Autofac" Version="4.*" />
     <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="4.*" />
     <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="2.0.0" />
